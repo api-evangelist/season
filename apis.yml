@@ -1,22 +1,80 @@
 aid: season
-name: Season
-description: Season is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Season Health
+description: >-
+  Season Health is a food-as-medicine platform that helps people living with
+  chronic conditions eat well and live well. It connects patients with
+  registered dietitians, personalized nutrition and meal plans, and
+  medically-tailored groceries and meals, and works with health plans and
+  care providers to deliver nutrition care as a covered benefit. The consumer
+  and provider experiences run through app.seasonhealth.com; the company is a
+  HIPAA-covered digital health service. Season Health is backed by a16z. As of
+  this enrichment pass the company publishes no public developer API,
+  documentation, or SDKs — api.seasonhealth.com is a private application
+  backend — so this profile captures the company's real public web properties
+  rather than an API program.
 url: https://raw.githubusercontent.com/api-evangelist/season/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/yrQokl5JOjozqf8xKfemXSLFw.jpg
 x-type: company
 x-source: vc-portfolio
+x-website: https://www.seasonhealth.com
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none-public
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health
+- Healthcare
+- Nutrition
+- Food as Medicine
+- Digital Health
+- Chronic Care
+- Telehealth
 apis: []
+common:
+- type: DomainSecurity
+  url: security/season-domain-security.yml
+- type: Website
+  url: https://www.seasonhealth.com
+- type: Blog
+  url: https://www.seasonhealth.com/blog
+- type: Support
+  url: https://support.seasonhealth.com/
+- type: SignUp
+  url: https://signup.seasonhealth.com/
+- type: Login
+  url: https://app.seasonhealth.com/auth/login
+- type: TermsOfService
+  url: https://www.seasonhealth.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.seasonhealth.com/privacy-policy-2
+- type: PrivacyPolicy
+  name: HIPAA Notice of Privacy Practices
+  url: https://www.seasonhealth.com/hipaa-notice-of-privacy-policy
+- type: Careers
+  url: https://seasonhealth.com/careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
